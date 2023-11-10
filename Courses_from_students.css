@@ -1,0 +1,72 @@
+.header {
+    background-color: #fff;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 220px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.nav-link {
+    padding: 10px;
+    background-color: #3b8dbe;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #4fa7e2;
+}
+
+.h1{
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.third-background {
+    background-color: white; /* Set the background color to white */
+    text-align: center;
+    padding: 20px;
+    color: #1c688c; /* Text color for the contact info */
+}
+
+.third-background h1 {
+    color: #1c688c;
+    text-align: left;
+    font-size: 45px; /* Font size for h1 */
+    margin: 20px 0;
+}
+
+.third-background h2 {
+    color: #1c688c;
+    text-align: left;
+    font-size: 20px; /* Font size for h1 */
+    margin: 20px 0;
+}

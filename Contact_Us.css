@@ -1,0 +1,147 @@
+.header {
+    background-color: #fff;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 220px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.nav-link {
+    padding: 10px;
+    background-color: #3b8dbe;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #4fa7e2;
+}
+
+/* First section styling */
+.first-section {
+    position: relative;
+    text-align: center;
+}
+
+.background {
+    background-color: #fdf8f4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+h1 {
+    color: #1c698d;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #e09176;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.info-item i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.contact-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.small-box {
+    width: 100px;
+}
+
+.large-box {
+    height: 200px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-button {
+    background-color: #FFA500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: absolute; /* Make the position absolute */
+    bottom: 0; /* Align the button to the bottom of the container */
+}
+
+.send-button:hover {
+    background-color: #FFD700;
+}
+
+/* Third background styling */
+.third-background {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    color: #1c688c;
+}
+
+.third-background h1 {
+    color: #1c688c;
+    text-align: left;
+    font-size: 45px;
+    margin: 20px 0;
+}
+
+.third-background h2 {
+    color: #1c688c;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islam Courses</title>
+    <link rel="stylesheet" type="text/css" href="master_Islam_Courses.css">
+    <link rel="icon" href="6.ico" type="image/x-icon">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            color: white;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            margin-right: 10px; /* Adjust the margin as needed */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 10px;
+            margin-left: auto; /* Push nav links to the right */
+        }
+
+        .nav-link {
+            padding: 10px;
+            background-color: #3b8dbe; /* Light blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .nav-link:hover {
+            background-color: #4fa7e2; /* Lighter blue on hover */
+        }
+    </style>
+
+</head>
+<body>
+    
+
+    <!--The fixed (sticky) header-->
+    <div class="header">
+        <div class="logo">
+            <img src="5.png" alt="Your Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="Islam_Courses.html" class="nav-link">Islam Courses</a>
+            <a href="Courses.html" class="nav-link">Courses</a>
+            <a href="Courses_from_students.html" class="nav-link">Courses From Students</a>
+            <a href="Contact_Us.html" class="nav-link">Contact Us</a>
+        </nav>
+        <!-- Add your logo and navigation links here -->
+    </div>
+    <!--The fixed (sticky) header-->
+
+
+
+    <!--Islam courses Section-->
+    <br><br><br><br><br><br><br><br><br>
+    <h1 class="learn1">تعلم الدين الإسلامي من كبار أساتذة الأزهر الشريف</h1>
+    <h2 class="learn">تعلم الدين الإسلامي تزدهر في حياتك</h2>
+
+    <div class="image-container">
+        <div class="image-item">
+            <img src="fekh.png" alt="الفقه">
+            <div class="overlay">
+                <p><strong>الفقه</strong><br>تعلم الفقه من كبار اساتذة الأزهر الشريف</p>
+                <a href="#" class="button" onclick="openNewTab('no_courses.html')">تصفح الدورات</a>
+            </div>
+        </div>
+        <div class="image-item">
+            <img src="sharea.png" alt="الشريعة">
+            <div class="overlay">
+                <p><strong>الشريعة</strong><br>تعلم الشريعة من كبار اساتذة الأزهر الشريف</p>
+                <a href="#" class="button" onclick="openNewTab('no_courses.html')">تصفح الدورات</a>
+            </div>
+        </div>
+        <div class="image-item">
+            <img src="akida.png" alt="العقيدة">
+            <div class="overlay">
+                <p><strong>العقيدة</strong><br>تعلم العقيدة من كبار اساتذة الأزهر الشريف</p>
+                <a href="#" class="button" onclick="openNewTab('no_courses.html')">تصفح الدورات</a>
+            </div>
+        </div>
+        <div class="image-item">
+            <img src="misc.png" alt="المذاهب ومتنوع">
+            <div class="overlay">
+                <p><strong>المذاهب و متنوع</strong><br>تعلم المذاهب ودورات متنوعة من كبار أساتذة الأزهر الشريف</p>
+                <a href="#" class="button" onclick="openNewTab('no_courses.html')">تصفح الدورات</a>
+            </div>
+        </div>
+        <!-- Add more image items as needed -->
+    </div>
+    <br><br>
+    <div class="third-background">
+        <h1>Call:0101112254</h1>
+        <h2>Email: info@company.com</h2>
+    </div>
+    <!--Islam courses Section-->
+    <script>
+        function openNewTab(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+</html>

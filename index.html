@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="master.css">
+    <link rel="icon" href="6.ico" type="image/x-icon">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            color: white;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            margin-right: 10px; /* Adjust the margin as needed */
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 10px;
+            margin-left: auto; /* Push nav links to the right */
+        }
+
+        .nav-link {
+            padding: 10px;
+            background-color: #3b8dbe; /* Light blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .nav-link:hover {
+            background-color: #4fa7e2; /* Lighter blue on hover */
+        }
+
+        .background-section {
+            background-image: url('download3.PNG');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box; /* Include padding in the element's total width and height */
+            display: flex;
+            flex-direction: column; /* Stack child elements vertically */
+            justify-content: center; /* Center the content vertically */
+            align-items: center; /* Center the content horizontally */
+        }
+
+        .background-section h1 {
+            color: white;
+            font-weight: bold;
+            font-size: 3em;
+            margin: 20px 0;
+        }
+
+        .background-section h2 {
+            color: white;
+            font-weight: bold;
+            font-size: 2em;
+            margin: 20px 0;
+        }
+
+        .contact-form {
+            max-width: 400px; /* Adjust the maximum width as needed */
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .contact-form input,
+        .contact-form button {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .second-background,
+        .third-background {
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #1c688c;
+        }
+
+        .second-background h1,
+        .third-background h1,
+        .second-background h2,
+        .third-background h2 {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!--The fixed (sticky) header-->
+    <div class="header">
+        <div class="logo">
+            <img src="5.png" alt="Your Logo">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="Islam_Courses.html" class="nav-link">Islam Courses</a>
+            <a href="Courses.html" class="nav-link">Courses</a>
+            <a href="Courses_from_students.html" class="nav-link">Courses From Students</a>
+            <a href="Contact_Us.html" class="nav-link">Contact Us</a>
+        </nav>
+    </div>
+    <!--The fixed (sticky) header-->
+
+    <!--home-section-->
+    <div class="background-section">
+        <!-- Your content goes here -->
+        <h1>دورات على الانترنت وشخصيا<sub>انشر العلم </sub></h1>
+        <h2>ادخل بياناتك</h2>
+        <form class="contact-form" onsubmit="return submitHomeForm();">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="second-background">
+        <!-- Your content for the second background image -->
+        <h1>ما هو دَوْر؟</h1>
+        <h2>دور هو موقع لعرض أحدث الدورات في الإدارات المختلفة بمحافظة الإسكندرية 
+        وأيضا لنشر دورات من الأزهر الشريف لتوسيع المعرفة الإسلامية لدى طلبة المدارس</h2>
+    </div>
+
+    <div class="third-background">
+        <h1>Call:0101112254</h1>
+        <h2>Email: info@company.com</h2>
+    </div>
+
+    <script>
+        function submitHomeForm() {
+            // Clear the input fields
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+    
+            // Prevent the form from submitting
+            return false;
+        }
+    </script>
+</body>
+</html>
